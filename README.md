@@ -1,6 +1,7 @@
 # LargeQuadraticForm
 
 Data:
+
 | Data        | Quadratic form  | 
 | ------------- |:-------------:| 
 | s500        |    Q_1       | 
