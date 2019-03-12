@@ -14,8 +14,12 @@ library(survey)
 ## to combine the leading eigenvalues, you cannot get same result as Table 2,
 ## because the accuracy is set to be $10^-9$ in the function. In table 2, we change
 ## it to $10^{-16}$.  You may get a larger error when p-value is greater than
-## $10^{-9}$ if you run the code directly. But you can get the same result as
-## Table 2 if you modify the accuracy to be $10^{-16}$.
+## $10^{-9}$ if you run the code directly without changing accuracy. But you can get 
+## the same result as Table 2 if you modify the accuracy to be $10^{-16}$. This can 
+## be done by set it as a global argument.
+
+## set global accuracy for pQF funtion
+acc = 1e-16
 
 set.seed(201902)
 
