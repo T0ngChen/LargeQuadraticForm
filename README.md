@@ -15,5 +15,5 @@ Data:
 code:
 
 * Existing_method.r produces Figure 1.
-* large_qf.r preduces examples in Section 3.
+* large_qf.r produces examples in Section 3.
 * Bausch_method.r produces results of Bausch's method in supplementary information 
