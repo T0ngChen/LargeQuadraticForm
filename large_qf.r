@@ -18,7 +18,7 @@ library(survey)
 ## the same result as Table 2 if you modify the accuracy to be $10^{-16}$. This can 
 ## be done by set it as a global argument.
 
-## set global accuracy for pQF funtion
+## set global accuracy for pQF funtion (the defalut value is 10^{-6})
 acc = 1e-16
 
 set.seed(201902)
