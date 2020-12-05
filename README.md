@@ -1,4 +1,4 @@
-# LargeQuadraticForm
+# Numerical evaluation of methods approximating the distribution of a large quadratic form in normal variables
 
 Data:
 
